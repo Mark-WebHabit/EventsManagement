@@ -1,0 +1,18 @@
+{
+  "rules": {
+    ".read": true, 
+    ".write": true,  
+    "users": {
+      ".indexOn": ["role"]
+    },
+    "attendance": {
+      ".indexOn": ["eventId", "studentId"]
+    },
+    "responses": {
+      ".indexOn": ["evaluationId"]
+    },
+      "certificates": {
+        ".indexOn": ["userId"]
+      }
+  }
+}
